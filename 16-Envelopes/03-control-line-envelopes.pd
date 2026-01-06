@@ -4,9 +4,9 @@
 #X obj 67 507 *~;
 #X obj 54 544 dac~;
 #X floatatom 66 263 5 0 0 0 - - - 0;
-#X obj 181 178 vsl 15 128 1 1000 0 0 empty empty attack -10 -8 0 12 #fcfcfc #000000 #000000 0 1;
-#X obj 245 176 vsl 15 128 0 1000 0 0 empty empty sustain -10 -8 0 12 #fcfcfc #000000 #000000 0 1;
-#X obj 308 177 vsl 15 128 1 1000 0 0 empty empty release -10 -8 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 181 178 vsl 15 128 1 500 0 0 empty empty attack -10 -8 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 245 176 vsl 15 128 0 500 0 0 empty empty sustain -10 -8 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 308 177 vsl 15 128 1 500 0 0 empty empty release -10 -8 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 225 398 del;
 #X obj 92 425 pack 1 f;
 #X obj 226 425 pack 0 f;
@@ -20,9 +20,9 @@
 #X floatatom 153 373 5 0 0 0 - - - 0;
 #X floatatom 307 373 5 0 0 0 - - - 0;
 #X floatatom 246 372 5 0 0 0 - - - 0;
-#X obj 66 173 metro 500;
-#X obj 66 204 random 500;
-#X obj 135 138 + 125;
+#X obj 66 173 metro 1500;
+#X obj 66 204 random 1250;
+#X obj 133 139 + 500;
 #X connect 0 0 2 0;
 #X connect 1 0 2 1;
 #X connect 2 0 3 0;

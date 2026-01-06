@@ -19,7 +19,7 @@
 #X obj 420 324 *;
 #X floatatom 65 295 0 0 0 0 - - - 0;
 #X obj 65 267 abs;
-#X text 52 381 The [pow] is used to exponentiate a number. The object returns the value at the left inlet to the power of the right inlet where the left inlet is the base and the right inlet is the exponent. For example: 2 to the power of 2 = 4 (i.e. 2 Squared) \, therefor the squareroot of 4 is 2;
+#X text 52 381 The [pow] is used to exponentiate a number. The object returns the value at the left inlet to the power of the right inlet where the left inlet is the base and the right inlet is the exponent. For example: 2 to the power of 2 = 4 (i.e. 2 Squared) \, therefore the square root of 4 is 2;
 #X connect 1 0 7 0;
 #X connect 2 0 8 0;
 #X connect 3 0 9 0;
