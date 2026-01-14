@@ -1,0 +1,6 @@
+#N canvas 2094 136 684 256 12;
+#X obj 19 24 add_synth;
+#X text 340 58 Trigger with Space Bar;
+#X text 24 220 © Alexander Bauer 2026;
+#X text 339 21 Additive Synthese (32 voices) with;
+#X text 339 37 random frequencies and random envelope times.;
