@@ -1,4 +1,4 @@
-#N canvas 2006 205 1147 841 12;
+#N canvas 773 169 1147 841 12;
 #X obj 413 210 pack f f;
 #X floatatom 285 150 5 0 0 0 - - - 0;
 #X floatatom 285 171 5 0 0 0 - - - 0;
@@ -59,6 +59,7 @@
 #X text 536 299 alexander bauer 2026;
 #X text 765 107 <-- Look Inside;
 #X text 687 147 <-- 32 Voices: Volume / 32;
+#X text 614 376 -> Ryoji Ikeda;
 #X connect 0 0 3 0;
 #X connect 1 0 0 0;
 #X connect 2 0 13 0;
