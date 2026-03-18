@@ -1,22 +1,20 @@
-#N canvas 140 22 723 338 10;
-#N canvas 0 22 450 300 (subpatch) 0;
+#N canvas 550 87 1370 752 10;
+#N canvas 121 146 450 300 (subpatch) 0;
 #X array \$0-waveshaper 259 float 0;
-#X coords 0 1 258 -1 100 100 1;
+#X coords 0 1 258 -1 100 100 1 0 0;
 #X restore 104 116 graph;
 #X obj 261 149 outlet~;
 #X obj 261 71 *~ 128;
 #X obj 261 96 +~ 129;
 #X obj 261 120 tabread4~ \$0-waveshaper;
-#X obj 207 116 vradio 10 1 0 8 empty empty empty 0 -6 0 8 -262144 -1
--1 0;
+#X obj 207 116 vradio 10 1 0 8 empty empty empty 0 -6 0 8 #fcfcfc #000000 #000000 0;
 #X obj 261 42 inlet~;
 #X obj 259 182 loadbang;
 #X msg 259 234 0;
 #X msg 299 272 \; pd dsp \$1 \;;
-#X obj 299 246 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
-1;
+#X obj 299 246 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 259 205 t b b;
-#N canvas 0 22 588 631 waveforms 0;
+#N canvas 208 233 588 631 waveforms 0;
 #X obj 57 40 inlet;
 #X obj 74 153 until;
 #X obj 115 181 + 1;
@@ -28,8 +26,7 @@
 #X obj 76 385 expr $f1;
 #X obj 221 515 expr sin(3.1415*$f1);
 #X msg 120 96 xticks 0 8 4 \, yticks 0 8 4;
-#X obj 234 539 expr if($f1>0 \, 0.8*sin(3.1415*$f1) \, 0.4*tanh(5*$f1))
-;
+#X obj 234 539 expr if($f1>0 \, 0.8*sin(3.1415*$f1) \, 0.4*tanh(5*$f1));
 #X obj 120 117 s \$0-waveshaper;
 #X obj 222 580 tabwrite \$0-waveshaper;
 #X obj 75 290 t b f;
@@ -80,8 +77,7 @@
 #X connect 23 0 1 0;
 #X connect 24 0 3 1;
 #X restore 205 285 pd waveforms;
-#X text 313 76 ranges values from -1 - 1 between 0 and 258 (table size
-= 259);
+#X text 313 76 ranges values from -1 - 1 between 0 and 258 (table size = 259);
 #X connect 2 0 3 0;
 #X connect 3 0 4 0;
 #X connect 4 0 1 0;
