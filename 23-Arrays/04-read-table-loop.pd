@@ -1,4 +1,4 @@
-#N canvas 289 164 574 724 12;
+#N canvas 512 125 574 724 12;
 #X obj 69 266 + 1;
 #X floatatom 36 494 5 0 0 1 ID_in_array_(x) - - 0;
 #X obj 36 520 tabread mytable;
@@ -23,7 +23,7 @@
 #X text 38 29 Define an array with a size of 128 (0 - 127);
 #X obj 261 441 random 501;
 #X text 202 235 Fill the array with numbers from 200 to 700;
-#X obj 71 190 hsl 162 19 5 5000 1 1 empty speed Speed\ (5-5000\ msecs) -2 -10 0 12 #fcfcfc #000000 #000000 6982 0;
+#X obj 71 190 hsl 162 19 5 5000 1 1 empty speed Speed\ (5-5000\ msecs) -2 -10 0 12 #fcfcfc #000000 #000000 1200 0;
 #X floatatom 68 215 5 0 0 0 - - - 0;
 #X obj 36 238 metro;
 #X obj 406 59 loadbang;
