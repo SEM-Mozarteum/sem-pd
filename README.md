@@ -27,9 +27,6 @@ at the Studio Electronic Music (SEM) at the University Mozarteum, Salzburg, Aust
 
 <img width="835" height="490" alt="Bildschirmfoto 2025-09-30 um 10 22 46" src="https://github.com/user-attachments/assets/c4afb556-ff2a-4064-808b-2640ebf96d32" />
 
-
 ## Maintainers and Contributors
-
-The current maintainer of this repository is:
-
-* Achim Bornhoeft <achim.bornhoeft@moz.ac.at>
+The current maintainer of this repository is:<br>
+Achim Bornhoeft <achim.bornhoeft@moz.ac.at>

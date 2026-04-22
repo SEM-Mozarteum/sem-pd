@@ -1,4 +1,4 @@
-#N canvas 557 391 326 277 12;
+#N canvas 557 391 388 293 12;
 #N canvas 581 113 280 537 10pol-lop 0;
 #X obj 171 35 inlet;
 #X obj 37 454 outlet~;
@@ -75,9 +75,10 @@
 #X obj 64 221 outlet~;
 #X obj 248 52 loadbang;
 #X obj 197 135 f \$1;
-#X obj 157 92 f \$2;
+#X obj 145 92 f \$2;
 #X obj 145 34 inlet;
 #X obj 197 33 inlet;
+#X text 175 176 lop~ higher than hip~ !;
 #X connect 0 0 1 0;
 #X connect 1 0 3 0;
 #X connect 2 0 0 0;
