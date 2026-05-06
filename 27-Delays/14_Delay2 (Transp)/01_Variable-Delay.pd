@@ -1,4 +1,4 @@
-#N canvas 33 38 998 485 12;
+#N canvas 33 38 998 806 12;
 #X obj 20 126 delwrite~ \$0-delayline 5000;
 #X obj 612 303 delread~ \$0-delayline 500;
 #X obj 269 378 output~;
