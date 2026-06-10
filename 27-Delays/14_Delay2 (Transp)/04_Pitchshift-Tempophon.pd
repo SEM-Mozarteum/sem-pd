@@ -1,4 +1,4 @@
-#N canvas 84 56 1367 840 12;
+#N canvas 272 121 1248 816 12;
 #X floatatom 401 184 5 0 0 2 Halbton_Transposition - - 0;
 #X obj 603 211 s fenster;
 #X floatatom 603 184 6 0 0 2 Fenster\ in\ msec - - 0;
