@@ -1,23 +1,21 @@
-#N canvas 320 118 532 477 12;
-#X text 12 146 Pd patches are always running and changes take effect
-immediately.;
-#X floatatom 17 298 5 0 0 0 - - -;
-#X floatatom 17 370 5 0 0 0 - - -;
-#X obj 17 238 metro 100;
-#X obj 17 269 random 100;
-#X text 45 203 <-- click here to start;
-#X text 55 320 connect by clicking on the outlet of the top number
-box \, then drag and drop on the inlet of the bottom number box;
-#X text 21 320 ^--;
-#X text 11 67 One path for objects to communicate is thru connections
-\, called cords or cables. Connections are always made from the inlet
-to the outlet since that is the direction data flows in Pd.;
-#X text 15 29 Connections;
-#X obj 17 207 tgl 20 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
-1;
-#X text 26 401 Disconnect the cable by clicking on it to highlight
-it \, then press "backspace".;
-#X text 138 268 next \, make sure you are in edit mode (cmd-e)!;
-#X connect 3 0 4 0;
-#X connect 4 0 1 0;
-#X connect 10 0 3 0;
+#N canvas 320 118 553 479 12;
+#X text 26 153 Pd patches are always running and changes take effect immediately.;
+#X floatatom 57 382 5 0 0 0 - - - 0;
+#X obj 57 255 metro 100;
+#X obj 57 286 random 100;
+#X text 82 224 <-- click here to start;
+#X text 25 74 One path for objects to communicate is thru connections \, called cords or cables. Connections are always made from the inlet to the outlet since that is the direction data flows in Pd.;
+#X text 29 36 Connections;
+#X obj 57 224 tgl 20 0 empty empty Switch\ off/on\ (0/1) 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X text 35 418 Disconnect the cable by clicking on it to highlight it \, then press "backspace".;
+#X text 139 255 Metronome;
+#X text 144 286 Random numbers between 0 and 99;
+#X text 65 309 outlet;
+#X text 124 319 next \, make sure you are in edit mode (cmd-e)!;
+#X text 64 359 inlet;
+#X text 124 341 connect by clicking on the outlet of the top random box \, then drag and drop on the inlet of the bottom number box;
+#N canvas 599 432 510 147 PRACTICE 1;
+#X text 58 54 comment;
+#X restore 177 37 pd PRACTICE;
+#X connect 2 0 3 0;
+#X connect 7 0 2 0;
