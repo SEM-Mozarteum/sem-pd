@@ -1,4 +1,4 @@
-#N canvas 163 38 573 606 12;
+#N canvas 861 205 573 606 12;
 #X obj 51 187 vsl 15 128 0 127 0 0 empty empty pitch -10 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X floatatom 51 327 5 0 0 0 - - - 0;
 #X obj 126 188 vsl 15 128 0 127 0 0 empty empty velocity -10 -10 0 12 #fcfcfc #000000 #000000 0 1;
@@ -48,14 +48,14 @@
 #X text 41 26 MIDI is a protocol of control data that can communicate (play) with keyboard based synthesizers. The object [makenote] creates midi notes \, velocities and durations to output via [noteout];
 #X text 42 100 Construction of midi notes with [makenote] and [noteout]. The note gets executed only if the number in the leftmost inlet of makenote is changed.;
 #X obj 111 466 noteout;
-#X msg 403 253 80 127 3000;
 #X obj 52 369 makenote 70 200;
+#X msg 403 253 80 80 3000;
 #X connect 0 0 1 0;
-#X connect 1 0 22 0;
+#X connect 1 0 21 0;
 #X connect 2 0 3 0;
-#X connect 3 0 22 1;
+#X connect 3 0 21 1;
 #X connect 4 0 5 0;
-#X connect 5 0 22 2;
+#X connect 5 0 21 2;
 #X connect 6 0 20 1;
 #X connect 7 0 20 0;
 #X connect 8 0 12 1;
@@ -65,6 +65,6 @@
 #X connect 11 0 10 0;
 #X connect 13 0 10 0;
 #X connect 14 0 10 0;
-#X connect 21 0 10 0;
-#X connect 22 0 7 0;
-#X connect 22 1 6 0;
+#X connect 21 0 7 0;
+#X connect 21 1 6 0;
+#X connect 22 0 10 0;
