@@ -12,8 +12,9 @@
 #X text 124 319 next \, make sure you are in edit mode (cmd-e)!;
 #X text 64 359 inlet;
 #X text 124 341 connect by clicking on the outlet of the top random box \, then drag and drop on the inlet of the bottom number box;
-#N canvas 1241 132 510 147 PRACTICE 0;
-#X text 58 54 Make a patch which produces random numbers between 0 and 49 every 1000 msec (1 second);
+#N canvas 556 216 510 147 PRACTICE 1;
+#X text 49 26 Make a patch which produces random numbers between 0 and 49 every 1000 msec (1 second);
+#X text 47 82 Advanced: Make a patch which produces random numbers between 50 and 100 every 1.2 seconds.;
 #X restore 177 37 pd PRACTICE;
 #X obj 57 286 random 100;
 #X obj 57 255 metro 1000;
