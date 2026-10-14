@@ -1,0 +1,16 @@
+#N canvas 245 225 632 599 12;
+#X obj 260 148 tgl 200 0 empty empty empty 0 -6 0 8 #dcdcdc #fc0400 #000000 0 12345;
+#X floatatom 260 353 5 0 0 0 - - - 0;
+#X text 18 387 You'll see in the properties panel that "size" is set to 200 pixels and "value" is set to 12345 \, so the toggle outputs 12345 when its turned on.;
+#X text 15 221 right-click on this -->;
+#X text 15 240 and select "Properties";
+#X text 14 32 Properties;
+#X text 14 65 Many objects have properties that affect how they behave and look. You can see and edit these properties by opening the Properties panel. Below is a giant toggle. If you right-click on it \, and select "Properties" \, you can see the properties.;
+#N canvas 63 101 782 466 practical 1;
+#X text 43 30 Practical:;
+#X text 42 84 Print the Value of the slider.;
+#X text 43 50 Connect a Vertical Slider to a number box. Range the slider between 0 and 50;
+#X text 45 170 Additional: Range another Slider between -50 and 0 \, multiplicate the value of slider 1 with [* -1] and connect it to the second slider.;
+#X text 42 105 In addition \, program a toggle that is switched on and off every 1000ms.;
+#X restore 29 483 pd practical;
+#X connect 0 0 1 0;

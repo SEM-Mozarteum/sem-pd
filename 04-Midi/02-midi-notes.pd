@@ -50,6 +50,13 @@
 #X obj 111 466 noteout;
 #X obj 52 369 makenote 70 200;
 #X msg 403 253 80 80 3000;
+#N canvas 92 130 671 623 PRACTICAL 1;
+#X text 57 49 Program a patch that plays a random midi note every 500ms. use the following random construction:;
+#X obj 59 88 random 25;
+#X obj 59 112 + 48;
+#X text 56 145 Program sliders to control velocity and duration.;
+#X connect 1 0 2 0;
+#X restore 471 566 pd PRACTICAL;
 #X connect 0 0 1 0;
 #X connect 1 0 21 0;
 #X connect 2 0 3 0;
