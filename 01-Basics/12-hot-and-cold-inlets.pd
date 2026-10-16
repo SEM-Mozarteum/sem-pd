@@ -1,4 +1,4 @@
-#N canvas 10 40 531 609 12;
+#N canvas 76 39 685 612 12;
 #X floatatom 15 312 5 0 0 0 - - - 0;
 #X msg 15 217 1;
 #X text 11 54 For most objects in Pd \, the leftmost inlet is the "hot" inlet. This means that it will output something whenever it receives data on the "hot" inlet.;
