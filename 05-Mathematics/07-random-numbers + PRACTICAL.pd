@@ -20,6 +20,10 @@
 #X text 36 301 Create fractional random numbers:;
 #X text 27 43 [random] outputs pseudo-random integers between 0 and N-1 where N is the creation argument or the value of the right inlet.;
 #X text 126 381 numbers 0 - 500;
+#N canvas 150 188 578 256 practical 1;
+#X text 56 34 Create a MIDI player which randomly plays a note every 500-2000 ms. Rannge the random values for the pitches between 48-72 \, the random values for velocity between 50 and 100 and for duration between 250 and 1000 with every new note \, all the random values should be evaluated anew.;
+#X text 62 144 BONUS: Program sliders to change the random upper and lower constraints. make three instances of the player in parallel.;
+#X restore 439 423 pd practical;
 #X connect 0 0 8 0;
 #X connect 5 0 0 1;
 #X connect 6 0 7 0;
