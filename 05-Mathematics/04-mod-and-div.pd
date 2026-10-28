@@ -1,31 +1,21 @@
 #N canvas 570 143 546 594 12;
-#X floatatom 100 225 0 0 0 0 - - -;
-#X floatatom 146 308 0 0 0 0 - - -;
-#X floatatom 227 226 0 1 1000 0 - - -;
+#X floatatom 100 225 0 0 0 0 - - - 0;
+#X floatatom 146 308 0 0 0 0 - - - 0;
+#X floatatom 227 226 0 1 1000 0 - - - 0;
 #X text 132 226 divided by;
-#X text 35 125 [mod] takes a number in its left inlet and will divide
-that number by either the creation argument or the number given at
-its left inlet and will produce the value of the remainder at its outlet.
-If no creation argument is given \, then the default value is 1;
-#X text 21 370 [div] takes a number in its left inlet and will divide
-that number by either the creation argument or the number given at
-its left inlet and will produce the result without a remainder. If
-no creation argument is given \, then the default value is 1;
-#X floatatom 44 462 0 0 0 0 - - -;
-#X floatatom 44 537 0 0 0 0 - - -;
-#X floatatom 256 464 0 1 100000 0 - - -;
+#X text 35 125 [mod] takes a number in its left inlet and will divide that number by either the creation argument or the number given at its left inlet and will produce the value of the remainder at its outlet. If no creation argument is given \, then the default value is 1;
+#X text 21 370 [div] takes a number in its left inlet and will divide that number by either the creation argument or the number given at its left inlet and will produce the result without a remainder. If no creation argument is given \, then the default value is 1;
+#X floatatom 44 462 0 0 0 0 - - - 0;
+#X floatatom 44 537 0 0 0 0 - - - 0;
+#X floatatom 256 464 0 1 100000 0 - - - 0;
 #X text 121 464 divided by;
 #X obj 44 507 div;
 #X obj 235 506 /;
-#X floatatom 235 537 0 0 0 0 - - -;
+#X floatatom 235 537 0 0 0 0 - - - 0;
 #X text 276 537 with a remainder.;
-#X text 37 26 [mod] and [div] are helpful objects to determine whether
-or not a fraction produces a remainder \, or to determine the value
-of the remainder. For example \, 3 / 3 = 1 with a remainder of zero
-(i.e. no remainder) while 4 / 3 = 1 with a remainder of 1;
+#X text 37 26 [mod] and [div] are helpful objects to determine whether or not a fraction produces a remainder \, or to determine the value of the remainder. For example \, 3 / 3 = 1 with a remainder of zero (i.e. no remainder) while 4 / 3 = 1 with a remainder of 1;
 #X text 80 537 with no remainder;
-#X obj 149 338 hsl 128 15 0 9 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 11289 1;
+#X obj 149 338 hsl 128 15 0 9 0 0 empty empty empty -2 -8 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 146 281 mod 10;
 #X text 181 307 remainder (rest);
 #X connect 0 0 17 0;

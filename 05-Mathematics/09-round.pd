@@ -4,14 +4,14 @@
 #X msg 140 77 1.23456;
 #X obj 140 145 t f b;
 #X obj 140 247 *;
-#X floatatom 140 415 10 0 0 0 - - - 0;
+#X floatatom 142 473 10 0 0 0 - - - 0;
 #X obj 177 173 f 10;
 #X msg 214 77 1.54635;
 #X msg 70 77 23.5678;
 #X msg 297 144 3;
 #X msg 257 143 1;
 #X obj 140 302 + 0.5;
-#X obj 140 388 /;
+#X obj 138 430 /;
 #X msg 215 143 0;
 #X text 334 145 decimals;
 #X text 63 38 Round numbers to defined fractional part;
