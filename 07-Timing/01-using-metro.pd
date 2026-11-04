@@ -1,4 +1,4 @@
-#N canvas 428 88 580 575 12;
+#N canvas 1073 54 580 575 12;
 #X msg 225 136 stop;
 #X msg 230 163 0;
 #X obj 156 231 metro 1000;
