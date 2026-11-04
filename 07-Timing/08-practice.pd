@@ -1,8 +1,3 @@
-<<<<<<< Updated upstream
-#N canvas 63 101 581 336 12;
+#N canvas 63 101 493 200 12;
 #X text 35 15 Write a patch that creates arpeggios (3 or more MIDI Notes) of a chord. Create the chords using arithmetic objects to generate the intervals. The root note should randomly change everytime the patch is played. Delay the notes using instances of [pipe] in a chain.;
 #X text 37 111 BONUS: Make a MIDI "Echo" by sending the arpeggio through one or more [pipe] instances with longer delay times to [makenotes] with lower velocity settings.;
-=======
-#N canvas 63 101 516 129 12;
-#X text 43 24 Write a patch that plays a minor chord in an accelerando \, starting from 2000ms. If the time value falls under 50ms \, trigger a new chord (or better \, a new root note).;
->>>>>>> Stashed changes

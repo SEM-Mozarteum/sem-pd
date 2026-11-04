@@ -1,0 +1,3 @@
+#N canvas 279 545 469 181 12;
+#X text 21 119 Bonus: Each time the counter hits a boundary \, this boundary is randomly changed.;
+#X text 22 13 Write a patch that creates scales playing up and down. Set different boundaries for when the scales should change direction. Make 2 instances of this playing simultaniously with different step sizes. (Note: The upper boundary must be a multiple of the stepsize \, otherwise the counter is overstepping it.);

@@ -1,3 +1,0 @@
-#N canvas 94 130 472 162 12;
-#X text 22 13 Write a patch that creates creates random scales playing up and down. The scales should randomly step in 1 or 2 semitones. Set boundaries for when the scales should change direction. Make 3 instances of this playing simultaniously.;
-#X text 18 101 Bonus: Combine this with an up/down counter for the metro values.;

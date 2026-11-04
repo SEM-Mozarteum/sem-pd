@@ -7,7 +7,7 @@
 #X msg 375 147 1000;
 #X msg 391 177 2000;
 #X msg 354 87 500;
-#X obj 319 291 print B;
+#X obj 319 279 print B;
 #X text 152 99 start;
 #X text 225 112 stop;
 #X obj 319 225 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000 0 1;
