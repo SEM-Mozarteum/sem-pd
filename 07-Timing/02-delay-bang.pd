@@ -1,4 +1,4 @@
-#N canvas 376 25 577 667 12;
+#N canvas 376 34 511 695 12;
 #X msg 22 404 bang;
 #X floatatom 89 476 0 0 0 0 - - - 0;
 #X text 111 501 <-- creation argument initializes delay time;
