@@ -1,0 +1,4 @@
+#N canvas 244 188 483 198 12;
+#X text 27 25 Practise List:;
+#X text 28 46 Write a program that starts in a c-major scale from a random point until the octave is reached. Use [random] and [list split] for this. Play through this sequence qith a counter and another list split object. use [list length] to get the value for a [mod] object.;
+#X msg 29 139 60 62 64 65 67 69 71 72;
